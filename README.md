@@ -1,41 +1,41 @@
-<p align="center"><img src="https://xuandung38.github.io/laravel-filemanager/images/logo_vertical_colored.png"></p>
+<p align="center"><img src="https://unisharp.github.io/laravel-filemanager/images/logo_vertical_colored.png"></p>
 
 <p align="center">
-  <a target="_blank" href="https://travis-ci.org/Xuandung38/laravel-filemanager"><img src="https://img.shields.io/travis/Xuandung38/laravel-filemanager.svg"></a>
-  <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://poser.pugx.org/xuandung38/laravel-filemanager/downloads"></a>
+  <a target="_blank" href="https://travis-ci.org/unisharp/laravel-filemanager"><img src="https://img.shields.io/travis/unisharp/laravel-filemanager.svg"></a>
+  <a target="_blank" href="https://packagist.org/packages/unisharp/laravel-filemanager"><img src="https://poser.pugx.org/unisharp/laravel-filemanager/downloads"></a>
   <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://img.shields.io/packagist/dm/xuandung38/laravel-filemanager.svg"></a>
-  <a target="_blank" href="https://scrutinizer-ci.com/g/Xuandung38/laravel-filemanager/"><img src="https://scrutinizer-ci.com/g/Xuandung38/laravel-filemanager/badges/quality-score.png?b=master"></a>
-  <a target="_blank" href="https://codeclimate.com/github/Xuandung38/laravel-filemanager/maintainability"><img src="https://api.codeclimate.com/v1/badges/e51f2ef8f4d9f97268db/maintainability" /></a>
-  <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://img.shields.io/badge/unstable-v2.0.0--alpha8-orange.svg"></a>
-  <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://poser.pugx.org/xuandung38/laravel-filemanager/v/stable"></a>
+  <a target="_blank" href="https://scrutinizer-ci.com/g/unisharp/laravel-filemanager/"><img src="https://scrutinizer-ci.com/g/unisharp/laravel-filemanager/badges/quality-score.png?b=master"></a>
+  <a target="_blank" href="https://codeclimate.com/github/unisharp/laravel-filemanager/maintainability"><img src="https://api.codeclimate.com/v1/badges/e51f2ef8f4d9f97268db/maintainability" /></a>
+  <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://img.shields.io/badge/unstable-v2.0.1-orange.svg"></a>
+  <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://poser.pugx.org/unisharp/laravel-filemanager/v/stable"></a>
   <a target="_blank" href="https://packagist.org/packages/xuandung38/laravel-filemanager"><img src="https://poser.pugx.org/xuandung38/laravel-filemanager/license"></a>
 </p>
 
 <p align="center">
-  <a href="http://xuandung38.github.io/laravel-filemanager/">Documents</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/">Documents</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/installation">Installation</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/installation">Installation</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/integration">Integration</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/integration">Integration</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/config">Config</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/config">Config</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/customization">Customization</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/customization">Customization</a>
 ・
   <a href="http://xuandung38.github.io/laravel-filemanager/events">Events</a>
 ・
   <a href="http://xuandung38.github.io/laravel-filemanager/upgrade">Upgrade</a>
 ・
-  <a href="https://github.com/Xuandung38/laravel-filemanager-example-5.3">Demo</a>
+  <a href="https://github.com/xuandung38/laravel-filemanager-example-5.3">Demo</a>
 ・
-  <a href="https://github.com/Xuandung38/laravel-filemanager/wiki">FAQ</a>
+  <a href="https://github.com/unisharp/laravel-filemanager/wiki">FAQ</a>
 </p>
 
 ## Installing alpha version
 The alpha version of `v2.0` contains support of cloud storage and fresh new UI with RWD.
 
  * Run `composer require xuandung38/laravel-filemanager:dev-master` to get the latest code.
- * Run `composer require xuandung38/laravel-filemanager:v2.0.0-alpha9` to get the latest release of alpha version.
+ * Run `composer require xuandung38/laravel-filemanager:v2.0.1` to get the latest release of alpha version.
 
 ## v2.0 progress
 * [x] (done) Unit test
@@ -57,7 +57,7 @@ The alpha version of `v2.0` contains support of cloud storage and fresh new UI w
 * [ ] Add more events for files and folders manipulation
 
 ## Documents of V1
-https://github.com/Xuandung38/laravel-filemanager/tree/v1/docs
+https://github.com/xuandung38/laravel-filemanager/tree/v1/docs
 
 ## Errors with namespace
 We have changed namespace from `Xuandung38` to `Xuandung38`, and change the first character of every namespace into capital.
