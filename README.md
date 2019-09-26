@@ -22,9 +22,9 @@
 ・
   <a href="http://unisharp.github.io/laravel-filemanager/customization">Customization</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/events">Events</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/events">Events</a>
 ・
-  <a href="http://xuandung38.github.io/laravel-filemanager/upgrade">Upgrade</a>
+  <a href="http://unisharp.github.io/laravel-filemanager/upgrade">Upgrade</a>
 ・
   <a href="https://github.com/xuandung38/laravel-filemanager-example-5.3">Demo</a>
 ・
