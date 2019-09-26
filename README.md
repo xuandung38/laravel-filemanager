@@ -95,11 +95,11 @@ This approach ensures that only authenticated users have access to the Laravel-F
 
  * [Stream](https://github.com/g0110280)
  * [@gwleuverink](https://github.com/gwleuverink)
- * All [@Xuandung38](https://github.com/Xuandung38) members
+ * All [@Unisharp](https://github.com/Unisharp) members
 
 ### Contributors
 
- * [All contibutors](https://github.com/Xuandung38/laravel-filemanager/graphs/contributors) from GitHub. (issues / PR)
+ * [All contibutors](https://github.com/Unisharp/laravel-filemanager/graphs/contributors) from GitHub. (issues / PR)
  * [@taswler](https://github.com/tsawler) the original author of this package.
  * Nathan for providing security suggestions.
  * [@mdnazmulhasan27771](https://github.com/mdnazmulhasan27771) the designer of our logo. (Licensed CC BY 4.0)
