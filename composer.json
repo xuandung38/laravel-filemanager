@@ -1,68 +1,66 @@
 {
-  "name": "xuandung38/laravel-filemanager",
-  "description": "A file upload/editor intended for use with Laravel 6.x and CKEditor / TinyMCE fix by xuandung38",
-  "license": "MIT",
-  "keywords": [
-    "filemanager",
-    "laravel",
-    "ckeditor",
-    "tinymce",
-    "upload",
-    "file",
-    "manager",
-    "image"
-  ],
-  "authors": [
-    {
-      "name": "Trevor Sawler",
-      "email": "trevor.sawler@gmail.com"
+    "name": "xuandung38/laravel-filemanager",
+    "description": "A file upload/editor intended for use with Laravel 6.x and CKEditor / TinyMCE fix by xuandung38",
+    "license": "MIT",
+    "keywords": [
+        "filemanager",
+        "laravel",
+        "ckeditor",
+        "tinymce",
+        "upload",
+        "file",
+        "manager",
+        "image"
+    ],
+    "authors": [{
+            "name": "Trevor Sawler",
+            "email": "trevor.sawler@gmail.com"
+        },
+        {
+            "name": "Xuandung38 Ltd.",
+            "email": "opensource@xuandung38.com"
+        },
+        {
+            "name": "xuandung38.",
+            "email": "xuandung38@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-exif": "*",
+        "ext-fileinfo": "*",
+        "intervention/image": "2.*",
+        "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.*",
+        "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.*",
+        "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.*",
+        "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.*",
+        "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.*"
     },
-    {
-      "name": "Xuandung38 Ltd.",
-      "email": "opensource@xuandung38.com"
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "mockery/mockery": "^0.9.9",
+        "squizlabs/php_codesniffer": "^3.1"
     },
-    {
-      "name": "xuandung38.",
-      "email": "xuandung38@gmail.com"
+    "suggest": {
+        "ext-gd": "to use GD library based image processing.",
+        "ext-imagick": "to use Imagick based image processing."
+    },
+    "autoload": {
+        "psr-4": {
+            "Xuandung38\\LaravelFilemanager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xuandung38\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+            ],
+            "aliases": {}
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "ext-exif": "*",
-    "ext-fileinfo": "*",
-    "intervention/image": "2.*",
-    "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.0.*",
-    "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.0.*",
-    "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.0.*",
-    "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.0.*",
-    "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*|| 6.0.*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6.2",
-    "mockery/mockery": "^0.9.9",
-    "squizlabs/php_codesniffer": "^3.1"
-  },
-  "suggest": {
-    "ext-gd": "to use GD library based image processing.",
-    "ext-imagick": "to use Imagick based image processing."
-  },
-  "autoload": {
-    "psr-4": {
-      "Xuandung38\\LaravelFilemanager\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-        "Tests\\": "tests"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Xuandung38\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
-      ],
-      "aliases": {
-      }
-    }
-  }
 }
